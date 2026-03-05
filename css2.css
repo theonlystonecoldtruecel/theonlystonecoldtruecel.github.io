@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #34495e;
+    padding: 10px;
+}
+
+main {
+    background-color: #ecf0f1;
+    font-size: 18px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #e74c3c;
+}
+
+p {
+    line-height: 1.6;
+}
+
+nav {
+    display: inline-block;
+    width: 80%;
+    background-color: #34495e;
+    padding: 10px;
+}
+
+/* Only images inside nav */
+nav img {
+    width: 10%;
+}
+
+/* Grid class styling */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Images inside grid class only */
+.grid img {
+    width: 100%;
+}
+
+/* Flex class styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Skip link styling */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #e74c3c;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    top: 0;
+}
