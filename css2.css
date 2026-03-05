@@ -75,7 +75,7 @@ nav img {
 /* Skip link styling */
 .skip-link {
     position: absolute;
-    top: -40px;
+    top: 0;
     left: 0;
     background: #e74c3c;
     color: white;
